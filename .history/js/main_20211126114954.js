@@ -18,7 +18,6 @@ function consultaCep() {
             $("#cepTitulo").html("CEP: " + response.cep);
             $(".cep").show();
             $(".progressBar").hide();
-            
             /*document.getElementById("uf").innerHTML = response.uf;
             document.getElementById("localidade").innerHTML = response.localidade;
             document.getElementById("logradouro").innerHTML = response.logradouro;
